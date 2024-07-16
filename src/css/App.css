@@ -1,0 +1,52 @@
+.sidebar{
+  width: 280px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  /* background-color: #ccc; */
+}
+
+.sidebar .logo{
+  padding: 20px 25px;
+}
+.sidebar .logo-img{
+  height: 60px;
+}
+
+.sidebar .nav{
+  padding: 50px 35px;
+}
+.sidebar .nav li{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.sidebar .nav li a{
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 6px;
+}
+.sidebar .nav li a .ico{
+  margin-right: 10px;
+}
+.sidebar .nav li a .lbl{}
+
+
+.sidebar .nav li a.on{
+  border-left: 2px solid #5078ff;
+  color: #5078ff;
+  line-height: 1;
+}
+
+.sidebar .updated-course{
+  padding: 0px 10px;
+}
+.sidebar .updated-course .ico{
+  background-color: #5078ff;
+  border-radius: 10px;
+  margin: 0px 15px;
+  padding: 20px;
+}
+
+.sidebar .updated-course .lbl{}
+.sidebar .updated-course .lbl .author{}
