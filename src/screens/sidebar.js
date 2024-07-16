@@ -36,7 +36,7 @@ function Sidebar(){
   return(
     <div className="sidebar fixed">
       <a href="#" className="logo bl">
-        <img src={logo} className="logo-img bl"></img>      
+        <img src={logo} className="logo-img bl" />      
       </a>
         <ul className="nav">
           {navigation}
@@ -47,7 +47,23 @@ function Sidebar(){
           </div>
           <div className = "lbl s15 fontb c333">
             Updated Courses
-            <h2 className="author s13 c727"> by Okatta Chinedu</h2>
+            <h2 className="author s13 c777"> by Okatta Chinedu</h2>
+          </div>
+        </div>
+        <div className="stats flex aic">
+          <div className="stats-box flex aic jic">
+            <div className="ico ico-points s24">
+              {<TbMedal />}
+              <h2 className="val s15 c333 fontb"> 1800</h2>
+              <h2 className="lbl s13 c777"> points</h2>
+            </div>
+          </div>
+          <div className="stats-box flex aic jic">
+            <div className="ico ico-battery s24">
+              {<GiBattery100 />}
+              <h2 className="val s15 c333 fontb"> 45.3%</h2>
+              <h2 className="lbl s13 c777"> complete</h2>
+            </div>
           </div>
         </div>
     </div>  

@@ -19,21 +19,14 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
 }
 
-.aic{
-    align-items: center;
-}
+.aic{align-items: center;}
+.jic{justify-content: center;}
 
-.fixed {
-    position: fixed;
-}
+.fixed {position: fixed;}
 
-.bl { 
-    display: block; 
-}
+.bl {display: block; }
 
-.noul{
-    text-decoration: none;
-}
+.noul{text-decoration: none;}
 
 .c333{color: #333;}
 .c777{color: #777;}

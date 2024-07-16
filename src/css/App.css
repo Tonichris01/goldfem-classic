@@ -50,3 +50,26 @@
 
 .sidebar .updated-course .lbl{}
 .sidebar .updated-course .lbl .author{}
+
+
+.sidebar .stats{
+  margin: 30px 0px;
+  padding: 70px 20px;
+}
+.sidebar .stats .stats-box{
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.sidebar .stats .stats-box .ico{
+  margin-bottom: 15px;
+}
+.sidebar .stats .stats-box .val{}
+.sidebar .stats .stats-box .lbl{}
+
+.sidebar .stats .stats-box .ico-points{
+  color: #086908;
+}
+.sidebar .stats .stats-box .ico-battery{
+  color: #ffbac6;
+}
